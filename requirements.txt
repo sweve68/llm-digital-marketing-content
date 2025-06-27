@@ -1,3 +1,13 @@
 fastapi
 uvicorn
 requests
+streamlit
+pydantic
+langchain-ollama
+BeautifulSoup4
+transformers
+bert-score
+torch
+faiss-cpu
+
+

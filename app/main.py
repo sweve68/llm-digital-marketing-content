@@ -1,8 +1,7 @@
 from fastapi import FastAPI
-from app.routers.status import router as status_router
-from app.routers.hello import router as hello_router
+from app.routers.content import router as digital_content_router
 
 app = FastAPI()
 
-app.router.include_router(status_router, prefix="/app", tags=["Status"])
-app.router.include_router(hello_router, prefix="/app", tags=["Status"])
+app.router.include_router(digital_content_router, prefix="/app", tags=["Digital"])
+
